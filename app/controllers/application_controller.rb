@@ -16,8 +16,6 @@ post '/teams' do
   @members = Hero.all
   
   erb :team
-  
-  bundler.pry
 end
 
 end
